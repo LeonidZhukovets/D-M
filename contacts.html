@@ -17,23 +17,57 @@
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <a class="logo" href="#">
+                <a class="logo" href="./index.html">
                     <img alt="logo" class="logo__img" src="./images/logo.svg">
                 </a>
                 <nav class="menu">
                     <ul class="menu__list">
-                        <li class="menu__list-item"><a class="menu__list-link" href="#">NEW CARS</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="./new-cars.html">NEW CARS</a></li>
                         <li class="menu__list-item"><a class="menu__list-link" href="#">PRE-OWNED CARS</a></li>
                         <li class="menu__list-item"><a class="menu__list-link" href="#">FINANCE</a></li>
                         <li class="menu__list-item"><a class="menu__list-link" href="#">LEASE VS BUY</a></li>
-                        <li class="menu__list-item"><a class="menu__list-link" href="#">CONTACT US</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link menu__list-link--active" href="./contacts.html">CONTACT US</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
     <main class="main">
-
+        <section class="contacts">
+            <div class="container">
+                <h2 class="section-title contacts__title">Contact Us</h2>
+                <p class="contacts__text">Feel free to contact us with questions, potencial partnerships or media
+                    inquiries</p>
+                <form action="#" class="form">
+                    <input class="form__input" placeholder="Name" type="text">
+                    <input class="form__input" placeholder="Email" type="email">
+                    <textarea class="form__textarea" placeholder="Your text"></textarea>
+                    <button class="form__btn" type="submit">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+        <section class="blog">
+            <div class="container">
+                <div class="blog__inner">
+                    <div class="blog__items">
+                        <div class="blog__item">
+                            <img alt="" class="blog__item-img" src="./images/blog-1.jpg">
+                            <h4 class="blog__item-title">An easier way to buy your next Toyota
+                            </h4>
+                            <a class="blog__item-link" href="#">more</a>
+                        </div>
+                        <div class="blog__item">
+                            <img alt="" class="blog__item-img" src="./images/blog-2.jpg">
+                            <h4 class="blog__item-title">A Guide to Road-Tripping With Pets
+                            </h4>
+                            <a class="blog__item-link" href="#">more</a>
+                        </div>
+                    </div>
+                    <a class="show-more-link" href="#">SHOW MORE</a>
+                </div>
+            </div>
+        </section>
 
     </main>
     <footer class="footer">
