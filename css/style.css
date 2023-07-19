@@ -445,3 +445,81 @@ a {
     background-color: #0066FF;
     padding: 4px 20px;
 }
+
+.choose{
+    padding: 0 100px 150px;
+}
+
+.choose__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.tabs{
+    margin-bottom: 70px;
+}
+.tabs__btn{
+    padding: 0 150px 100px;
+    display: flex;
+  justify-content: space-between;
+    gap: 80px;
+}
+
+.tabs__btn-item{
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.tabs__btn-item--active{
+    color: #0066FF;
+}
+
+.tabs__content-item{
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;
+}
+.tabs__content-item.tabs__content-item--active{
+display: grid;
+}
+.card{
+    text-align: center;
+}
+.card__content{
+    padding: 20px 5px;
+    border: 1px solid #0066FF;
+    border-top: 0;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+.card__img{
+    display: block;
+}
+
+.card__title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card__text{
+
+}
+
+.card__price{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__link{
+    display: block;
+    color: #0066FF;
+    border: 1px solid #0066FF;
+    border-top: 0;
+}
